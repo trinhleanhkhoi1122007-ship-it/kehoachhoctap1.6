@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Frontend road map">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="HIENLTH">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend development road map</title>
+    <style>
+        .ul{
+            list-style-type: none;
+            display:flex;
+            padding:5px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            margin: 10px;
+        }
+        a:hover {
+            color:  #00ff90;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #F5F9FF;
+            color: #2C3E50;
+            overflow-x: hidden;
+            background-image: url('hoc.jpg');
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #2C3E50;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .logo{
+            border-radius: 50%;
+            margin-right: 50px;
+        }
+        .container {
+            padding-top:400px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:200px;
+        }
+         
+
+        h2 {
+            text-transform: uppercase;
+            color: #888;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            margin-top: 10px;
+            font-size: 50px;
+            font-weight: 600;
+            color: #fdfdfd;
+        }
+
+        .box2 {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .thanh {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            background: #ffffff;
+            transition: all 0.3s ease;
+            width:500px;
+        }
+
+        .thanh:hover {
+            background: #bfd3fc;
+            transform: translateY(-3px);
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            color: rgb(255, 255, 255);
+        }
+
+        .icon1 img{ width: 50px}
+        
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        p{
+          font-size: 14px;
+            color: #666;
+            line-height: 1.5;  
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="box">
+        <div><img src="avatar.jpg" width="50" class="logo"></div>
+        <ul class="ul"; class="menu li a">
+            <li><a href="http://127.0.0.1:3000/baitap1.6/1.6.html?serverWindowId=8d42d43f-38f4-4023-a697-534b795b812f">TRANG CHỦ</a></li>
+            <li ><a href="http://127.0.0.1:3000/baitap1.6/trangchu.html?serverWindowId=8d42d43f-38f4-4023-a697-534b795b812f">GIỚI THIỆU</a></li>
+            <li><a href="http://127.0.0.1:3000/baitap1.6/kehoachhoctap.html?serverWindowId=8d42d43f-38f4-4023-a697-534b795b812f">KẾ HOẠCH HỌC TẬP</a></li>
+            <li><a href="http://127.0.0.1:3000/baitap1.6/sothich.html?serverWindowId=8d42d43f-38f4-4023-a697-534b795b812f">SỞ THÍCH</a></li>
+            <li><a href="http://127.0.0.1:3000/baitap1.6/tranglienhe.html?serverWindowId=8d42d43f-38f4-4023-a697-534b795b812f">TRANG LIÊN HỆ</a></li>
+        </ul>
+    </div>
+    </header>
+
+    <div class="container">
+        <div class="">
+            <h1>KẾ HOẠCH HỌC TẬP</h1>
+            <div class="box2">
+                <div class="thanh">
+                    <div class="icon1"><img src="eng.png"></div>
+                    <div>
+                        <h3>Cải thiện trình độ tiếng anh</h3>
+                        <p>Đạt aim ielts trong 2 năm</p>
+                    </div>
+                </div>
+
+                <div class="thanh">
+                    <div class="icon1"><img src="no-entry.png"></div>
+                    <div>
+                        <h3>Không bị rớt môn </h3>
+                        <p>Không phải học lại môn nào</p>
+                    </div>
+                </div>
+
+                <div class="thanh">
+                    <div class="icon1"><img src="teacher.png"></div>
+                    <div class="service-text">
+                        <h3>Thực tập</h3>
+                        <p>Năm 4 đi thực tập lấy kinh nghiệm dạy học</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
